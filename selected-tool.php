@@ -42,7 +42,7 @@
                     if ($avatar) {
                       echo "<img src='$avatar' class='rounded-circle'>";
                     } else {
-                      echo "<img src='assets/img/kali.png' class='rounded-circle'>";
+                      echo "<img src='assets/img/logo.png' class='rounded-circle'>";
                     }
                   ?>
 

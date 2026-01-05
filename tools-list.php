@@ -48,7 +48,7 @@
 								$avatar = $resultado['avatar'];
 
 								if(is_null($avatar)) {
-									$avatar = 'assets/img/kali.png';
+									$avatar = 'assets/img/logo.png';
 								}
 						?>
 

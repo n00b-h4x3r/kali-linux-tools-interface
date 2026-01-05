@@ -6,7 +6,7 @@
 <!-- LOGO -->
 <p align="center">
   <img src="assets/img/logo.png" alt="Logo" width="80" height="80">
-  <h3 align="center">Kali Linux Tools Interface</h3>
+  <h3 align="center">BlackArch Tools Interface</h3>
   
   <p align="center">A graphical interface to use information security tools by the browser.
     <br />
@@ -42,7 +42,7 @@ author = {Fraga, Lucas},
 doi = {10.5281/zenodo.17298710},
 license = {MIT},
 month = oct,
-title = {{Kali Linux Tools Interface: Graphical Web Interface for Security Tools}},
+title = {{BlackArch Tools Interface: Graphical Web Interface for Security Tools}},
 url = {{"type" => "GitHub", "url" => "https://github.com/lucasfrag/kali-linux-tools-interface"}},
 version = {v2.0.0},
 year = {2025}
@@ -52,23 +52,23 @@ year = {2025}
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Kali Linux Tools Interface is a graphical interface to use information security tools by the browser. The project uses the Kali Linux tools as a reference because it is the distribution that has the largest package of native tools.
+BlackArch Tools Interface is a graphical interface to use information security tools by the browser. The project uses the BlackArch Linux tools as a reference because it is the distribution that has the most exhaustive package of security tools (over 2,800 tools).
 
 
 ### Prerequisites
 
-- A Debian-based distribution (preferably [Kali Linux](https://www.kali.org/))
+- An Arch Linux-based distribution with [BlackArch](https://www.blackarch.org/) repository enabled (preferably [BlackArch Linux](https://www.blackarch.org/))
 - The information security tools installed
 - Apache / Nginx service running
 - SSH Service running
 - Shell In A Box (if you want to use the Terminal)
-  - To install <b>Shell In A Box</b>, use the following command: `sudo apt-get install shellinabox`
+  - To install <b>Shell In A Box</b>, use the following command: `sudo pacman -S shellinabox` (Arch Linux) or `sudo apt-get install shellinabox` (Debian/Ubuntu)
 
 
 ### Installation
 
 1. Extract the contents to the folder of your web server.
-2. Create a database called `kali` in MySQL and import the file `assets/database.sql`.
+2. Create a database called `blackarch` in MySQL and import the file `assets/database.sql`.
 3. Edit the file `assets/includes/config.php` and set yours settings.
 4. Enjoy!
 

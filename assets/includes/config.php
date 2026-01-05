@@ -3,7 +3,7 @@
 	// Functions
 	function getConnectionDB() {
 		$username = "root"; $password = "";
-		$con = new PDO('mysql:host=localhost;dbname=kali', $username, $password, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
+		$con = new PDO('mysql:host=localhost;dbname=blackarch', $username, $password, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
         return $con;
 	}
 

@@ -3,12 +3,12 @@
 ## Elliot
 - Idade: 26 anos
 - Analista de Segurança da Informação.
-- Utiliza ferramentas do Kali Linux profissionalmente para realizar auditorias, pentest e coleta de informações.
+- Utiliza ferramentas do BlackArch Linux profissionalmente para realizar auditorias, pentest e coleta de informações.
 
 ## Alan
 - Idade: 34 anos
 - Instrutor de cursos e treinamentos na área de Segurança da Informação.
-- Utiliza ferramentas do Kali Linux para realizar auditorias, treinamentos e aprendizagem pessoal.
+- Utiliza ferramentas do BlackArch Linux para realizar auditorias, treinamentos e aprendizagem pessoal.
 
 ## Gabriel
 - Idade: 21 anos
